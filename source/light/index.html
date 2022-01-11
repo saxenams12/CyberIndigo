@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- BEGIN HEAD -->
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta name="description" content="Responsive Admin Template" />
+	<meta name="author" content="SmartUniversity" />
+	<title>Theme Designed by Mayank</title>
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
+	<!-- icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link href="fonts/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="fonts/material-design-icons/material-icon.css" rel="stylesheet" type="text/css" />
+	<!--bootstrap -->
+	<link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/plugins/summernote/summernote.css" rel="stylesheet">
+	<!-- Material Design Lite CSS -->
+	<link rel="stylesheet" href="../assets/plugins/material/material.min.css">
+	<link rel="stylesheet" href="../assets/css/material_style.css">
+	<!-- inbox style -->
+	<link href="../assets/css/pages/inbox.min.css" rel="stylesheet" type="text/css" />
+	<!-- Theme Styles -->
+	<link href="../assets/css/theme/light/theme_style.css" rel="stylesheet" id="rt_style_components" type="text/css" />
+	<link href="../assets/css/plugins.min.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/theme/light/style.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/theme/light/theme-color.css" rel="stylesheet" type="text/css" />
+	<!-- favicon -->
+
+	<link rel="shortcut icon" href="../assets/img/favicon.ico" />
+
+
+	<style>
+		.info-box-icon {
+    float: left;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 74px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20%;
+}
+.info-box-icon.push-bottom {
+    margin-top: 0px;
+}
+.info-box-content h3{
+	margin-top: -45px;
+}
+.info-box-content {
+    padding: 0px 0px 0px 0;
+    margin-left: 90px;
+}
+.info-box-1 {
+   
+    padding: 1px!important;
+   
+}
+.settingSidebar {
+  
+     top: -30px; 
+  
+}
+.page-container-bg-solid .page-bar, .page-content-white .page-bar {
+   
+    margin: 0px -20px 15px;
+}
+
+.table-responsive {
+    background: white;
+    padding: 20px;
+    border-radius: 22px;
+}
+.bg-white {
+    background-color: #e6e6e6 !important;
+    color: #fff;
+}
+
+.card-1 {
+    background-color: #fff;
+    border-radius: 0px;
+    position: relative;
+    margin-bottom: 30px;
+    border: 0px solid #deebfd;
+    /* box-shadow: -8px 12px 18px 0 #dadee8; */
+    box-shadow: 0px 0px 0px 0 #dadee8;
+
+}
+.profile-sidebar {
+    float: left;
+    width: 100%;
+    margin-right: 20px;
+    /*margin-top: 25%;*/
+}
+.settingSidebar { 
+    width: 362px; 
+    right: -362px;  
+}
+.noti-ficarion{
+	margin-top: 27%;
+}
+.card-box {
+    background-color: #fff;
+    border-radius: 0px;
+    position: relative;
+    margin-bottom: 20px;
+    border: 0px solid #deebfd;
+    box-shadow: 0px 0px 0px 0 #dadee8;
+}
+.card-head {
+    
+    border-bottom: 0px dotted rgba(0, 0, 0, 0.2);
+  
+}
+
+	</style>
+
+	<style type="text/css">
+		.progress-mayank{
+			max-width: 100%;
+			height: 200px;
+			background-color: transparent;
+			position: relative;
+			left: 13%;
+		}
+
+		.progress-bar-1{
+			width: 10px;
+			position: absolute;
+			top: 0px;
+		}
+
+		.h-100{
+			height: 100%;
+			background-color: #007bff
+		}
+
+		.h-90{
+			height: 90%;
+		}
+		.h-80{
+			height: 80%;
+		}
+		.h-70{
+			height: 70%;
+		}
+		.h-60{
+			height: 60%;
+		}
+		.h-50{
+			height: 50%;
+		}
+		.h-40{
+			height: 40%;
+		}
+		.h-30{
+			height: 30%;
+		}
+		.h-20{
+			height: 20%;
+		}
+		.h-10{
+			height: 10%;
+		}
+		.h-0{
+			height: 0%;
+		}
+
+		.circle{
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			display: inline-block;
+		}
+		.pro-gress{
+			background-color: white;
+			border-radius: 24px;
+		}
+		.img-for-top{
+			margin-top: -10%;
+		}
+
+		.info-box-1 {
+    padding: -6px!important;
+    margin-top: 6%;
+    height: 233px;
+}
+.img-for-top {
+    margin-top: -34%;
+}
+.info-box-1 {
+    padding: -6px!important;
+    margin-top: 6%;
+    background: #f7e5e9;
+    height: 233px;
+}
+.info-box-content h2{
+color: #ff808b;
+font-weight: bold;
+}
+.icon-arro{
+	float: right;
+    margin-top: 12px;
+}
+.page-bar .page-breadcrumb {
+   
+    background: none;
+}
+.icon-search-b{
+	background-color: #0000ff33;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: -29px;
+    padding-top: 9px;
+    margin-left: 8px;
+}
+.more-arrew{
+	float: right;
+}
+.fa-arrow-right:before {
+    padding-left: 10px;
+}
+.left-side-icon{
+	margin-top: 40px;
+}
+
+ 	 @media only screen and (min-width: 200px) and (max-width: 467px)  {
+   		.info-box-content{
+   			margin-left: 0px;
+   		}
+   		
+   		.info-box-content h2, .info-box-content h3{
+   			font-size: 18px !important;
+		    line-height: 28px;
+
+   		}
+
+   		.img-for-top{
+   			display: none;
+   		}
+    }
+
+	</style>
+
+
+
+</head>
+<!-- END HEAD -->
+
+<body
+	class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white white-sidebar-color logo-indigo">
+	<div class="page-wrapper">
+		<!-- start header -->
+		
+		<!-- end header -->
+		<!-- start color quick setting -->
+
+		<div class="settingSidebar">
+			<a href="javascript:void(0)" class="settingPanelToggle"> <i class="fa fa-spin fa-cog"></i>
+			</a>
+			<div class="settingSidebar-body ps-container ps-theme-default">
+				<div class=" fade show active">
+				  <div class="container">
+		           	<div class="row left-side-icon">
+		           		<div class="col-6"> 
+		           			<div class="">
+		           				<p><b>Logout</b></p>
+		           			</div>
+		           		</div>
+		           		<div class="col-6">
+		           			<div class="more-arrew">
+		           				<p><i class="fas fa-arrow-right "></i></p>
+		           			</div>
+		           		</div>
+		           	</div>
+		           </div>
+
+					<div class="row" >
+						<div class="col-md-12">
+							<!-- BEGIN PROFILE SIDEBAR -->
+							<div class="profile-sidebar">
+								<div class="card card-1">
+									<div class="card-body no-padding height-9">
+										<div class="row">
+											<div class="profile-userpic">
+												<img src="../assets/img/dp.jpg" class="img-responsive" alt=""> </div>
+										</div>
+										<div class="profile-usertitle">
+											<div class="profile-usertitle-name">Anna Morrison</div>
+											<div style="color: #8D8E98" class="profile-usertitle-job"> Student </div>
+										</div>
+										<!-- END SIDEBAR BUTTONS -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="container">
+							<div class="row">
+								<div class="col-8" style="background: white;height: 150px;margin-bottom: -80px">
+									<div class="row">
+										<div class="noti-information notification-menu">
+											<div class="notification-list mail-list not-list small-slimscroll-style">
+												<a href="javascript:;" class="single-mail"> 
+													<span class="icon bg-light"><b class="text-dark">B1</b></span> 
+													<span class="text-black">English
+													   <br><small style="color: #8D8E98">High Intermidiate</small>
+												    </span>    
+												</a>
+																								
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-4" style="background: white;margin-bottom: -80px">
+									<div class="progress bg-black mt-4">
+										<div class="progress-bar progress-bar-primary progress-bar-striped active"
+											role="progressbar" aria-valuenow="90"
+											aria-valuemin="0" aria-valuemax="100"
+											style="width:46%;">
+										</div>				
+									</div>
+								</div>
+							</div>
+
+							<!-- 2nd -->
+
+							<div class="row">
+								<div class="col-8" style="background: white;height: 15px;margin-bottom: -150px">
+									<div class="row">
+										<div class="noti-information notification-menu">
+											<div class="notification-list mail-list not-list small-slimscroll-style">
+												<a href="javascript:;" class="single-mail"> 
+													<span class="icon bg-light"><b class="text-dark">C1</b></span> 
+													<span class="text-black">Spanish
+													   <br><small style="color: #8D8E98">High Intermidiate</small>
+												    </span>    
+												</a>
+																								
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-4" style="background: white;margin-bottom: -150px;height: 15px;">
+									<div class="progress bg-black mt-4">
+										<div class="progress-bar progress-bar-primary progress-bar-striped active"
+											role="progressbar" aria-valuenow="90"
+											aria-valuemin="0" aria-valuemax="100"
+											style="width:46%;">
+										</div>				
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="noti-ficarion">
+							<div class="container ">
+							<div class="row">
+								 <!-- Notication -->
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+							<div class="card  card-box">
+								<div class="card-head">
+									<header>Reminders</header>
+									<div class="tools">
+										<!-- notifaction ball -->
+						            <div class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
+							            <a class="dropdown-toggle" data-bs-toggle="dropdown" data-hover="dropdown"
+								            data-close-others="true">
+								            <i style="color: #8D8E98" class="fa fa-bell-o"></i>
+							            </a>
+						            </div>
+						            <!-- end ball notification -->
+									</div>
+								</div>
+								<div class="card-body no-padding height-9">
+									<div class="row">
+										<div class="noti-information notification-menu">
+											<div class="notification-list mail-list not-list small-slimscroll-style">
+												<a href="javascript:;" class="single-mail"> <span
+														class="icon bg-primary"> <i class="fa fa-user-o"></i>
+													</span> <span class="text-black">Eng - Vocabulary Test</span>
+													<span class="notificationtime">
+														<small style="color: #8D8E98">24 sep friday</small>
+													</span>
+												</a>
+													<a href="javascript:;" class="single-mail"> <span
+														class="icon blue-bgcolor"> <i class="fa fa-envelope-o"></i>
+													</span> <span class="text-black">Eng - Vocabulary Test</span>
+													<span class="notificationtime">
+														<small style="color: #8D8E98">24 sep friday</small>
+													</span>
+												</a>
+												<a href="javascript:;" class="single-mail"> <span
+														class="icon bg-success"> <i class="fa fa-check-square-o"></i>
+													</span> <span class="text-black">Eng - Vocabulary Test</span>
+													<span class="notificationtime">
+														<small style="color: #8D8E98">24 sep friday</small>
+													</span>
+												</a>
+												<a href="javascript:;" class="single-mail"> <span
+														class="icon bg-warning"> <i class="fa fa-warning"></i>
+													</span> <span class="text-black">Eng - Vocabulary Test</span>
+													<span class="notificationtime">
+														<small style="color: #8D8E98">24 sep friday</small>
+													</span>
+												</a>
+												<a href="javascript:;" class="single-mail"> <span
+														class="icon bg-primary"> <i class="fa fa-user-o"></i>
+													</span> <span class="text-black">Eng - Vocabulary Test</span>
+													<span class="notificationtime">
+														<small style="color: #8D8E98">24 sep friday</small>
+													</span>
+												</a>
+												<a href="javascript:;" class="single-mail"> <span
+														class="icon blue-bgcolor"> <i class="fa fa-envelope-o"></i>
+													</span> <span class="text-black">Eng - Vocabulary Test</span>
+													<span class="notificationtime">
+														<small style="color: #8D8E98">24 sep friday</small>
+													</span>
+												</a>
+												<a href="javascript:;" class="single-mail"> <span
+														class="icon bg-success"> <i class="fa fa-check-square-o"></i>
+													</span> Success Message
+													<span class="notificationtime">
+														<small> 2 Days Ago</small>
+													</span>
+												</a>
+												<a href="javascript:;" class="single-mail"> <span
+														class="icon bg-warning"> <i class="fa fa-warning"></i>
+													</span> <span class="text-black">Eng - Vocabulary Test</span>
+													<span class="notificationtime">
+														<small style="color: #8D8E98">24 sep friday</small>
+													</span>
+												</a>
+												<a href="javascript:;" class="single-mail"> <span
+														class="icon bg-danger"> <i class="fa fa-times"></i>
+													</span> <span class="text-black">Eng - Vocabulary Test</span>
+													<span class="notificationtime">
+														<small style="color: #8D8E98">24 sep friday</small>
+													</span>
+												</a>
+											</div>
+											<div class="full-width text-center p-t-10">
+												<button type="button"
+													class="btn purple btn-outline btn-circle margin-0">View All</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end notification -->
+							</div>
+						</div>
+						</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- end color quick setting -->
+		<!-- start page container -->
+		<div class="page-container">
+
+			<!-- start sidebar menu -->
+			<div class="sidebar-container">
+				<div class="sidemenu-container navbar-collapse collapse fixed-menu">
+					<div id="remove-scroll" class="left-sidemenu">
+						<ul class="sidemenu  page-header-fixed slimscroll-style" data-keep-expanded="false"
+							data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
+							<li class="sidebar-toggler-wrapper hide">
+								<div class="sidebar-toggler">
+									<span></span>
+								</div>
+							</li>
+							<li class="sidebar-user-panel">
+								<div class="user-panel">
+									<div style="font-size: 35px;margin-bottom: 50px"><b>Logo</b></div>
+								</div>
+							</li>
+							<li class="nav-item start active open">
+								<a href="#" class="nav-link nav-toggle">
+									<i class="material-icons">dashboard</i>
+									<span class="title">Dashboard</span>
+									<span class="selected"></span>
+								</a>
+								<span></span>
+							</li>
+							<li class="nav-item">
+								<a href="event.html" class="nav-link nav-toggle"> <i class="material-icons">event</i>
+									<span class="title">Classes</span>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link nav-toggle"> <i class="material-icons">person</i>
+									<span class="title">Resources</span><!--  <span class="arrow"></span> -->
+								</a>
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="all_professors.html" class="nav-link "> <span class="title">All
+												Professors</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="add_professor.html" class="nav-link "> <span class="title">Add
+												Professor</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="add_professor_bootstrap.html" class="nav-link "> <span
+												class="title">Add Professor Bootstrap</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="edit_professor.html" class="nav-link "> <span class="title">Edit
+												Professor</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="professor_profile.html" class="nav-link "> <span class="title">About
+												Professor</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link nav-toggle"><i class="material-icons">group</i>
+									<span class="title">Learn Plan</span></a>
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="all_students.html" class="nav-link "> <span class="title">All
+												Students</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="add_student.html" class="nav-link "> <span class="title">Add
+												Student</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="add_student_bootstrap.html" class="nav-link "> <span class="title">Add
+												Student Bootstrap</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="edit_student.html" class="nav-link "> <span class="title">Edit
+												Student</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="student_profile.html" class="nav-link "> <span class="title">About
+												Student</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+
+
+							
+							<li class="nav-item">
+								<a href="javascript:;" class="nav-link nav-toggle">
+									<i class="material-icons">subtitles</i>
+									<span class="title">Chat</span>
+								</a>
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="layouts_form.html" class="nav-link ">
+											<span class="title">Form Layout</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="advance_form.html" class="nav-link ">
+											<span class="title">Advance Component</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="wizard.html" class="nav-link ">
+											<span class="title">Form Wizard</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="validation_form.html" class="nav-link ">
+											<span class="title">Form Validation</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="editable_form.html" class="nav-link ">
+											<span class="title">Editor</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a href="javascript:;" class="nav-link nav-toggle">
+									<i class="material-icons">list</i>
+									<span class="title">Setting</span>
+								</a>
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="basic_table.html" class="nav-link ">
+											<span class="title">Basic Tables</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="advanced_table.html" class="nav-link ">
+											<span class="title">Advance Tables</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="export_table.html" class="nav-link ">
+											<span class="title">Export Tables</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="child_row_table.html" class="nav-link ">
+											<span class="title">Child Row Tables</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="group_table.html" class="nav-link ">
+											<span class="title">Grouping</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="tableData.html" class="nav-link ">
+											<span class="title">Tables With Sourced Data</span>
+										</a>
+									</li>
+
+								</ul>
+							</li>
+				<!-- small image -->	
+			<div style="margin-bottom: -45px;margin-left: 79px"><img src="cardimage.jfif" width="80px"></div>
+			<div style="height: 168px; width: 180px;background: #f5f5fb;opacity: 0.7;border-radius: 11px; margin-left: 12%;">
+				<p style="margin-top: 0px;text-align: center;padding-top: 52px">Upgrare to <b>Pro</b> for <br>more resources </p>
+				<button class="btn btn-primary" style="margin-left: 44px;border-radius: 10px">Upgrade</button>
+			</div>
+	<!-- end small image -->
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- end sidebar menu -->
+
+			<!-- start page content -->
+			<div class="page-content-wrapper">
+				<div class="page-content">
+					<div class="page-bar">
+						<div class="page-title-breadcrumb">
+							<div class=" pull-left">
+								<div class="page-title">Dashboard</div>
+							</div>
+							<ol class="breadcrumb page-breadcrumb pull-right">
+								20 Sep 2019 , Friday
+								<div class="icon-search-b"><i class="fas fa-search  "></i></div>
+							</ol>
+						</div>
+					</div>
+					<!-- start widget -->
+				<div class="container state-overview">
+						<div class="row">
+							<div class="col-xl-12 col-md-6 col-12">
+								<div class="info-box bg-b-pink info-box-1">
+									<div class="row">
+										<div class="col-md-7 col-xl-7 col-lg-7 col-12">
+									      <div class="info-box-content p-sm-4 p-4 p-lg-0" style="color: black">
+										    <h2>Welcome back Anna!</h2>
+										    <h3><br>You have learned <b>80%</b> of your goal this week!<br> keep it up and improve your results!</h3>
+									     </div>
+										</div>
+										<div class="col-md-5 col-lg-5 col-xl-5 col-12">
+											<div class="img-for-top">
+												<img src="work.png" width="400">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+					<!-- end widget -->
+					<div class="container mb-4 mb-lg-0">
+						<div class="table-wrap row">
+										<div class="table-responsive col-xl-4 col-lg-4 col-md-4 col-12 mb-4">
+											<table class="table display product-overview mb-30" id="support_table">
+												<thead>
+													<tr>
+														<th>Latest Result</th>
+														<th>Progress</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><b>Unit 5 - </b><span style="color: #8D8E98">Technology</span></td>
+														<td>
+															<div class="progress bg-white">
+																<div class="progress-bar progress-bar-danger progress-bar-striped active"
+																	role="progressbar" aria-valuenow="90"
+																	aria-valuemin="0" aria-valuemax="100"
+																	style="width:25%;">
+																</div>
+															</div>
+														</td>
+														<td>
+															<h5 style="color: red">25%</h5>
+														</td>
+													</tr>
+
+													<tr>
+														<td><b>Unit 12 - </b><span style="color: #8D8E98">Echology</span></td>
+														<td>
+															<div class="progress bg-white">
+																<div class="progress-bar progress-bar-primary progress-bar-striped active"
+																	role="progressbar" aria-valuenow="90"
+																	aria-valuemin="0" aria-valuemax="100"
+																	style="width:44%;">
+																</div>
+															</div>
+														</td>
+														<td>
+															<h5 style="color: blue">44%</h5>
+														</td>
+													</tr>
+
+													<tr>
+														<td><b>Unit 9 - </b><span style="color: #8D8E98">Real estate</span></td>
+														<td>
+															<div class="progress bg-white">
+																<div class="progress-bar progress-bar-primary progress-bar-striped active"
+																	role="progressbar" aria-valuenow="90"
+																	aria-valuemin="0" aria-valuemax="100"
+																	style="width:40%;">
+																</div>
+															</div>
+														</td>
+														<td>
+															<h5 style="color: blue">40%</h5>
+														</td>
+													</tr>
+
+													<tr>
+														<td><b>Unit 8 - </b><span style="color: #8D8E98">Education</span></td>
+														<td>
+															<div class="progress bg-white">
+																<div class="progress-bar progress-bar-danger progress-bar-striped active"
+																	role="progressbar" aria-valuenow="90"
+																	aria-valuemin="0" aria-valuemax="100"
+																	style="width:15%;">
+																</div>
+															</div>
+														</td>
+														<td>
+															<h5 style="color: red">15%</h5>
+														</td>
+													</tr>
+
+													<tr>
+														<td><b>Unit 16 - </b><span style="color: #8D8E98">Job market</span></td>
+														<td>
+															<div class="progress bg-white">
+																<div class="progress-bar progress-bar-primary progress-bar-striped active"
+																	role="progressbar" aria-valuenow="90"
+																	aria-valuemin="0" aria-valuemax="100"
+																	style="width:76%;">
+																</div>
+															</div>
+														</td>
+														<td>
+															<h5 style="color: blue">76%</h5>
+														</td>
+													</tr>
+													
+												</tbody>
+											</table>
+										</div>
+
+				<div class="col-12 col-md-8 col-xl-8 col-lg-8   p-0 p-lg-2">
+					<div class="pro-gress p-3 p-lg-5">
+						<div class="row">
+						<div class="col-9 ">
+							<h5>Time spent on Learning</h5>
+						</div>
+						<div class="col">
+							<h6>Last Week -</h6>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col">Mon</div>
+						<div class="col">Tue</div>
+						<div class="col">Wed</div>
+						<div class="col">Thu</div>
+						<div class="col">Fri</div>
+						<div class="col">Sat</div>
+						<div class="col">Sun</div>
+					</div>
+
+					<div class="row mt-4">
+						<div class="col">
+							<div class="progress-mayank">
+								<div class="progress-bar-1 h-100" ></div>
+								<div class="progress-bar-1 h-60 bg-success"></div>
+								<div class="progress-bar-1 h-0 bg-danger progress-bar-stripped"></div>
+								<div class="progress-bar-1 h-40 bg-warning progress-bar-stripped"></div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="progress-mayank">
+								<div class="progress-bar-1 h-100"></div>
+								<div class="progress-bar-1 h-80 bg-success"></div>
+								<div class="progress-bar-1 h-0 bg-danger progress-bar-stripped"></div>
+								<div class="progress-bar-1 h-20 bg-warning progress-bar-stripped"></div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="progress-mayank">
+								<div class="progress-bar-1 h-100"></div>
+								<div class="progress-bar-1 h-0 bg-success"></div>
+								<div class="progress-bar-1 h-40 bg-danger progress-bar-stripped"></div>
+								<div class="progress-bar-1 h-10 bg-warning progress-bar-stripped"></div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="progress-mayank">
+								<div class="progress-bar-1 h-100"></div>
+								<div class="progress-bar-1 h-70 bg-success"></div>
+								<div class="progress-bar-1 h-40 bg-danger progress-bar-stripped"></div>
+								<div class="progress-bar-1 h-20 bg-warning progress-bar-stripped"></div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="progress-mayank">
+								<div class="progress-bar-1 h-100"></div>
+								<div class="progress-bar-1 h-80 bg-success"></div>
+								<div class="progress-bar-1 h-40 bg-danger progress-bar-stripped"></div>
+								<div class="progress-bar-1 h-0 bg-warning progress-bar-stripped"></div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="progress-mayank">
+								<div class="progress-bar-1 h-100"></div>
+								<div class="progress-bar-1 h-70 bg-success"></div>
+								<div class="progress-bar-1 h-60 bg-danger progress-bar-stripped"></div>
+								<div class="progress-bar-1 h-40 bg-warning progress-bar-stripped"></div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="progress-mayank">
+								<div class="progress-bar-1 h-100"></div>
+								<div class="progress-bar-1 h-0 bg-success"></div>
+								<div class="progress-bar-1 h-80 bg-danger progress-bar-stripped"></div>
+								<div class="progress-bar-1 h-20 bg-warning progress-bar-stripped"></div>
+							</div>
+						</div>	
+					</div>
+
+					<div class="row mt-4">
+						<div class="offset-lg-1 col-6 col-lg"> <div class="circle " style="background-color: #007bff"></div> Vocabulary</div>
+						<div class="col"><div class="circle bg-success"></div>  Grammer</div>
+						<div class="col"> <div class="circle bg-danger"></div> Listening</div>
+						<div class="col"><div class="circle bg-warning"></div> Writing</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		           <div class="container">
+		           	<div class="row">
+		           		<div class="col-6">
+		           			<div class="">
+		           				<p><b>Your courses</b></p>
+		           			</div>
+		           		</div>
+		           		<div class="col-6">
+		           			<div class="more-arrew">
+		           				<p>More <i class="fas fa-arrow-right "></i></p>
+		           			</div>
+		           		</div>
+		           	</div>
+		           </div>
+
+					<!-- start widget -->
+					<div class="state-overview">
+						<div class="row">
+							
+							<!-- /.col -->
+							<div class="col-xl-4 col-md-6 col-12">
+								<div class="info-box bg-b-yellow">
+									<span class="info-box-icon push-bottom"><i class="material-icons">person</i></span>
+									<div class="info-box-content">
+										<span class="info-box-text">Business English</span>
+										<span class="progress-description">
+											Grammer <i class="fas fa-arrow-right icon-arro"></i>
+										</span> 
+									</div>
+									<!-- /.info-box-content -->
+								</div>
+								<!-- /.info-box -->
+							</div>
+							<!-- /.col -->
+							<div class="col-xl-4 col-md-6 col-12">
+								<div class="info-box bg-b-blue">
+									<span class="info-box-icon push-bottom"><i class="material-icons">school</i></span>
+									<div class="info-box-content">
+										<span class="info-box-text">Comman English</span>
+										<span class="progress-description">
+											Phrasal Verbs <i class="fas fa-arrow-right icon-arro"></i>
+										</span>
+									</div>
+									<!-- /.info-box-content -->
+								</div>
+								<!-- /.info-box -->
+							</div>
+							<!-- /.col -->
+							<div class="col-xl-4 col-md-6 col-12">
+								<div class="info-box bg-b-pink">
+									<span class="info-box-icon push-bottom"><i
+											class="material-icons">monetization_on</i></span>
+									<div class="info-box-content">
+										<span class="info-box-text">Fees Collection</span>
+										<span class="progress-description">
+											Vocabulary<i class="fas fa-arrow-right icon-arro"></i>
+										</span>
+									</div>
+									<!-- /.info-box-content -->
+								</div>
+								<!-- /.info-box -->
+							</div>
+							<!-- /.col -->
+						</div>
+					</div>
+					<!-- end widget -->	
+				</div>
+			</div>
+			<!-- end page content -->
+		</div>
+	</div>
+
+	<!-- start js include path -->
+	<script src="../assets/plugins/jquery/jquery.min.js"></script>
+	<script src="../assets/plugins/popper/popper.js"></script>
+	<script src="../assets/plugins/jquery-blockui/jquery.blockui.min.js"></script>
+	<script src="../assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+	<!-- bootstrap -->
+	<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../assets/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+	<script src="../assets/plugins/sparkline/jquery.sparkline.js"></script>
+	<script src="../assets/js/pages/sparkline/sparkline-data.js"></script>
+	<!-- Common js-->
+	<script src="../assets/js/app.js"></script>/
+</body>
+
+</html>
